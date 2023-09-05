@@ -1,6 +1,5 @@
 - name: install wartest  
   hosts: all
   remote_user: jenkins
-  become: yes
   roles:
     - wartest
