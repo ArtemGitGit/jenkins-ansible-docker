@@ -1,7 +1,6 @@
 - name: install wartest  
   hosts: all
-  ansible_ssh_host_key_checking: false
-  become: yes
   remote_user: jenkins
+  become: yes
   roles:
     - wartest
